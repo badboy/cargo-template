@@ -1,0 +1,22 @@
+[package]
+name = "{{name}}"
+version = "0.1.0"
+authors = [{{toml-escape author}}]
+description = "TODO: Fill in description"
+
+repository = "https://github.com/badboy/{{name}}"
+homepage = "https://github.com/badboy/{{name}}"
+documentation = "https://docs.rs/{{name}}"
+
+license = "MIT"
+
+include = [
+  "README.md",
+  "LICENSE",
+  "Cargo.toml",
+  "src/**/*",
+  "benches/**/*",
+  "examples/**/*"
+]
+
+[dependencies]
